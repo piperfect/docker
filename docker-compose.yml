@@ -55,7 +55,6 @@ services:
         ELK_VERSION: $ELK_VERSION
     hostname: es03
     container_name: es03
-    container_name: es03
     environment:
       - node.name=es03
       - cluster.name=es-docker-cluster
